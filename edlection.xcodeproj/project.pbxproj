@@ -14,6 +14,7 @@
 		F3052BC1286BE1CE000502F8 /* edlection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3052BBF286BE1CE000502F8 /* edlection.xcdatamodeld */; };
 		F3052BC3286BE1D1000502F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3052BC2286BE1D1000502F8 /* Assets.xcassets */; };
 		F3052BC6286BE1D1000502F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3052BC4286BE1D1000502F8 /* LaunchScreen.storyboard */; };
+		F3052BCE286BE26F000502F8 /* fetterman.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BCD286BE26F000502F8 /* fetterman.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F3052BC2286BE1D1000502F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3052BC5286BE1D1000502F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3052BC7286BE1D1000502F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3052BCD286BE26F000502F8 /* fetterman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetterman.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				F3052BC4286BE1D1000502F8 /* LaunchScreen.storyboard */,
 				F3052BC7286BE1D1000502F8 /* Info.plist */,
 				F3052BBF286BE1CE000502F8 /* edlection.xcdatamodeld */,
+				F3052BCD286BE26F000502F8 /* fetterman.swift */,
 			);
 			path = edlection;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3052BBB286BE1CE000502F8 /* ViewController.swift in Sources */,
+				F3052BCE286BE26F000502F8 /* fetterman.swift in Sources */,
 				F3052BC1286BE1CE000502F8 /* edlection.xcdatamodeld in Sources */,
 				F3052BB7286BE1CE000502F8 /* AppDelegate.swift in Sources */,
 				F3052BB9286BE1CE000502F8 /* SceneDelegate.swift in Sources */,
