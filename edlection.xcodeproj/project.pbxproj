@@ -15,6 +15,38 @@
 		F3052BC3286BE1D1000502F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3052BC2286BE1D1000502F8 /* Assets.xcassets */; };
 		F3052BC6286BE1D1000502F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3052BC4286BE1D1000502F8 /* LaunchScreen.storyboard */; };
 		F3052BCE286BE26F000502F8 /* fetterman.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BCD286BE26F000502F8 /* fetterman.swift */; };
+		F3052BD0286BF027000502F8 /* oz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BCF286BF027000502F8 /* oz.swift */; };
+		F3052BD2286BF051000502F8 /* fAbortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BD1286BF051000502F8 /* fAbortion.swift */; };
+		F3052BD4286BF062000502F8 /* fEconomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BD3286BF062000502F8 /* fEconomy.swift */; };
+		F3052BD6286BF070000502F8 /* fGun.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BD5286BF070000502F8 /* fGun.swift */; };
+		F3052BD8286BF08E000502F8 /* fEntitlements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BD7286BF08E000502F8 /* fEntitlements.swift */; };
+		F3052BDA286BF0A1000502F8 /* fImmigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BD9286BF0A1000502F8 /* fImmigration.swift */; };
+		F3052BDC286BF0B8000502F8 /* fEdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BDB286BF0B8000502F8 /* fEdu.swift */; };
+		F3052BDE286BF21C000502F8 /* fClimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BDD286BF21C000502F8 /* fClimate.swift */; };
+		F3052BE0286BF232000502F8 /* oAbortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BDF286BF232000502F8 /* oAbortion.swift */; };
+		F3052BE2286BF23F000502F8 /* oEconomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BE1286BF23F000502F8 /* oEconomy.swift */; };
+		F3052BE4286BF24B000502F8 /* oGun.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BE3286BF24B000502F8 /* oGun.swift */; };
+		F3052BE6286BF255000502F8 /* oEntitlements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BE5286BF255000502F8 /* oEntitlements.swift */; };
+		F3052BE8286BF260000502F8 /* oImmigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BE7286BF260000502F8 /* oImmigration.swift */; };
+		F3052BEA286BF26B000502F8 /* oEdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BE9286BF26B000502F8 /* oEdu.swift */; };
+		F3052BEC286BF274000502F8 /* oClimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BEB286BF274000502F8 /* oClimate.swift */; };
+		F3052BEE286BF28A000502F8 /* raphael.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BED286BF28A000502F8 /* raphael.swift */; };
+		F3052BF0286BF29D000502F8 /* herschel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BEF286BF29D000502F8 /* herschel.swift */; };
+		F3052BF2286BF2A7000502F8 /* rAbortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BF1286BF2A7000502F8 /* rAbortion.swift */; };
+		F3052BF4286BF2B2000502F8 /* rEconomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BF3286BF2B2000502F8 /* rEconomy.swift */; };
+		F3052BF6286BF2C5000502F8 /* rGun.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BF5286BF2C5000502F8 /* rGun.swift */; };
+		F3052BF8286BF2CE000502F8 /* rEntitlements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BF7286BF2CE000502F8 /* rEntitlements.swift */; };
+		F3052BFA286BF2DC000502F8 /* rImmigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BF9286BF2DC000502F8 /* rImmigration.swift */; };
+		F3052BFC286BF2E5000502F8 /* rEdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BFB286BF2E5000502F8 /* rEdu.swift */; };
+		F3052BFE286BF2F2000502F8 /* rClimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BFD286BF2F2000502F8 /* rClimate.swift */; };
+		F3052C02286BF34A000502F8 /* hAbortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052C01286BF34A000502F8 /* hAbortion.swift */; };
+		F3052C04286BF356000502F8 /* hEconomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052C03286BF356000502F8 /* hEconomy.swift */; };
+		F3052C06286BF361000502F8 /* hGun.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052C05286BF361000502F8 /* hGun.swift */; };
+		F3052C08286BF373000502F8 /* hEntitlements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052C07286BF373000502F8 /* hEntitlements.swift */; };
+		F3052C0A286BF386000502F8 /* hImmigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052C09286BF386000502F8 /* hImmigration.swift */; };
+		F3052C0C286BF391000502F8 /* hEdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052C0B286BF391000502F8 /* hEdu.swift */; };
+		F3052C0E286BF39C000502F8 /* hClimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052C0D286BF39C000502F8 /* hClimate.swift */; };
+		F3052C16286BF47E000502F8 /* Downloads in Resources */ = {isa = PBXBuildFile; fileRef = F3052C15286BF47E000502F8 /* Downloads */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +60,38 @@
 		F3052BC5286BE1D1000502F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3052BC7286BE1D1000502F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3052BCD286BE26F000502F8 /* fetterman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetterman.swift; sourceTree = "<group>"; };
+		F3052BCF286BF027000502F8 /* oz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oz.swift; sourceTree = "<group>"; };
+		F3052BD1286BF051000502F8 /* fAbortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fAbortion.swift; sourceTree = "<group>"; };
+		F3052BD3286BF062000502F8 /* fEconomy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fEconomy.swift; sourceTree = "<group>"; };
+		F3052BD5286BF070000502F8 /* fGun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fGun.swift; sourceTree = "<group>"; };
+		F3052BD7286BF08E000502F8 /* fEntitlements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fEntitlements.swift; sourceTree = "<group>"; };
+		F3052BD9286BF0A1000502F8 /* fImmigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fImmigration.swift; sourceTree = "<group>"; };
+		F3052BDB286BF0B8000502F8 /* fEdu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fEdu.swift; sourceTree = "<group>"; };
+		F3052BDD286BF21C000502F8 /* fClimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fClimate.swift; sourceTree = "<group>"; };
+		F3052BDF286BF232000502F8 /* oAbortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oAbortion.swift; sourceTree = "<group>"; };
+		F3052BE1286BF23F000502F8 /* oEconomy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oEconomy.swift; sourceTree = "<group>"; };
+		F3052BE3286BF24B000502F8 /* oGun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oGun.swift; sourceTree = "<group>"; };
+		F3052BE5286BF255000502F8 /* oEntitlements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oEntitlements.swift; sourceTree = "<group>"; };
+		F3052BE7286BF260000502F8 /* oImmigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oImmigration.swift; sourceTree = "<group>"; };
+		F3052BE9286BF26B000502F8 /* oEdu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oEdu.swift; sourceTree = "<group>"; };
+		F3052BEB286BF274000502F8 /* oClimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oClimate.swift; sourceTree = "<group>"; };
+		F3052BED286BF28A000502F8 /* raphael.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raphael.swift; sourceTree = "<group>"; };
+		F3052BEF286BF29D000502F8 /* herschel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = herschel.swift; sourceTree = "<group>"; };
+		F3052BF1286BF2A7000502F8 /* rAbortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rAbortion.swift; sourceTree = "<group>"; };
+		F3052BF3286BF2B2000502F8 /* rEconomy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rEconomy.swift; sourceTree = "<group>"; };
+		F3052BF5286BF2C5000502F8 /* rGun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rGun.swift; sourceTree = "<group>"; };
+		F3052BF7286BF2CE000502F8 /* rEntitlements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rEntitlements.swift; sourceTree = "<group>"; };
+		F3052BF9286BF2DC000502F8 /* rImmigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rImmigration.swift; sourceTree = "<group>"; };
+		F3052BFB286BF2E5000502F8 /* rEdu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rEdu.swift; sourceTree = "<group>"; };
+		F3052BFD286BF2F2000502F8 /* rClimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rClimate.swift; sourceTree = "<group>"; };
+		F3052C01286BF34A000502F8 /* hAbortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hAbortion.swift; sourceTree = "<group>"; };
+		F3052C03286BF356000502F8 /* hEconomy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hEconomy.swift; sourceTree = "<group>"; };
+		F3052C05286BF361000502F8 /* hGun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hGun.swift; sourceTree = "<group>"; };
+		F3052C07286BF373000502F8 /* hEntitlements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hEntitlements.swift; sourceTree = "<group>"; };
+		F3052C09286BF386000502F8 /* hImmigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hImmigration.swift; sourceTree = "<group>"; };
+		F3052C0B286BF391000502F8 /* hEdu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hEdu.swift; sourceTree = "<group>"; };
+		F3052C0D286BF39C000502F8 /* hClimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hClimate.swift; sourceTree = "<group>"; };
+		F3052C15286BF47E000502F8 /* Downloads */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Downloads; path = ../../..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +132,73 @@
 				F3052BC4286BE1D1000502F8 /* LaunchScreen.storyboard */,
 				F3052BC7286BE1D1000502F8 /* Info.plist */,
 				F3052BBF286BE1CE000502F8 /* edlection.xcdatamodeld */,
-				F3052BCD286BE26F000502F8 /* fetterman.swift */,
+				F3052C0F286BF3A7000502F8 /* fetterman -P */,
+				F3052C10286BF3BA000502F8 /* oz -P */,
+				F3052C00286BF331000502F8 /* herschel -G */,
+				F3052BFF286BF2F7000502F8 /* raphael -G */,
 			);
 			path = edlection;
+			sourceTree = "<group>";
+		};
+		F3052BFF286BF2F7000502F8 /* raphael -G */ = {
+			isa = PBXGroup;
+			children = (
+				F3052C15286BF47E000502F8 /* Downloads */,
+				F3052BED286BF28A000502F8 /* raphael.swift */,
+				F3052BF1286BF2A7000502F8 /* rAbortion.swift */,
+				F3052BF3286BF2B2000502F8 /* rEconomy.swift */,
+				F3052BF5286BF2C5000502F8 /* rGun.swift */,
+				F3052BF7286BF2CE000502F8 /* rEntitlements.swift */,
+				F3052BF9286BF2DC000502F8 /* rImmigration.swift */,
+				F3052BFB286BF2E5000502F8 /* rEdu.swift */,
+				F3052BFD286BF2F2000502F8 /* rClimate.swift */,
+			);
+			path = "raphael -G";
+			sourceTree = "<group>";
+		};
+		F3052C00286BF331000502F8 /* herschel -G */ = {
+			isa = PBXGroup;
+			children = (
+				F3052BEF286BF29D000502F8 /* herschel.swift */,
+				F3052C01286BF34A000502F8 /* hAbortion.swift */,
+				F3052C03286BF356000502F8 /* hEconomy.swift */,
+				F3052C05286BF361000502F8 /* hGun.swift */,
+				F3052C07286BF373000502F8 /* hEntitlements.swift */,
+				F3052C09286BF386000502F8 /* hImmigration.swift */,
+				F3052C0B286BF391000502F8 /* hEdu.swift */,
+				F3052C0D286BF39C000502F8 /* hClimate.swift */,
+			);
+			path = "herschel -G";
+			sourceTree = "<group>";
+		};
+		F3052C0F286BF3A7000502F8 /* fetterman -P */ = {
+			isa = PBXGroup;
+			children = (
+				F3052BCD286BE26F000502F8 /* fetterman.swift */,
+				F3052BD1286BF051000502F8 /* fAbortion.swift */,
+				F3052BD3286BF062000502F8 /* fEconomy.swift */,
+				F3052BD5286BF070000502F8 /* fGun.swift */,
+				F3052BD7286BF08E000502F8 /* fEntitlements.swift */,
+				F3052BD9286BF0A1000502F8 /* fImmigration.swift */,
+				F3052BDB286BF0B8000502F8 /* fEdu.swift */,
+				F3052BDD286BF21C000502F8 /* fClimate.swift */,
+			);
+			path = "fetterman -P";
+			sourceTree = "<group>";
+		};
+		F3052C10286BF3BA000502F8 /* oz -P */ = {
+			isa = PBXGroup;
+			children = (
+				F3052BCF286BF027000502F8 /* oz.swift */,
+				F3052BDF286BF232000502F8 /* oAbortion.swift */,
+				F3052BE1286BF23F000502F8 /* oEconomy.swift */,
+				F3052BE3286BF24B000502F8 /* oGun.swift */,
+				F3052BE5286BF255000502F8 /* oEntitlements.swift */,
+				F3052BE7286BF260000502F8 /* oImmigration.swift */,
+				F3052BE9286BF26B000502F8 /* oEdu.swift */,
+				F3052BEB286BF274000502F8 /* oClimate.swift */,
+			);
+			path = "oz -P";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3052C16286BF47E000502F8 /* Downloads in Resources */,
 				F3052BC6286BE1D1000502F8 /* LaunchScreen.storyboard in Resources */,
 				F3052BC3286BE1D1000502F8 /* Assets.xcassets in Resources */,
 				F3052BBE286BE1CE000502F8 /* Main.storyboard in Resources */,
@@ -144,11 +273,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3052BE6286BF255000502F8 /* oEntitlements.swift in Sources */,
+				F3052BDE286BF21C000502F8 /* fClimate.swift in Sources */,
+				F3052BDA286BF0A1000502F8 /* fImmigration.swift in Sources */,
+				F3052C04286BF356000502F8 /* hEconomy.swift in Sources */,
 				F3052BBB286BE1CE000502F8 /* ViewController.swift in Sources */,
+				F3052C08286BF373000502F8 /* hEntitlements.swift in Sources */,
+				F3052BD4286BF062000502F8 /* fEconomy.swift in Sources */,
+				F3052BD6286BF070000502F8 /* fGun.swift in Sources */,
+				F3052BE0286BF232000502F8 /* oAbortion.swift in Sources */,
+				F3052BEE286BF28A000502F8 /* raphael.swift in Sources */,
 				F3052BCE286BE26F000502F8 /* fetterman.swift in Sources */,
+				F3052BF6286BF2C5000502F8 /* rGun.swift in Sources */,
+				F3052BFE286BF2F2000502F8 /* rClimate.swift in Sources */,
+				F3052BF0286BF29D000502F8 /* herschel.swift in Sources */,
+				F3052C02286BF34A000502F8 /* hAbortion.swift in Sources */,
+				F3052BDC286BF0B8000502F8 /* fEdu.swift in Sources */,
+				F3052C0C286BF391000502F8 /* hEdu.swift in Sources */,
 				F3052BC1286BE1CE000502F8 /* edlection.xcdatamodeld in Sources */,
+				F3052BE8286BF260000502F8 /* oImmigration.swift in Sources */,
+				F3052BD2286BF051000502F8 /* fAbortion.swift in Sources */,
+				F3052BE2286BF23F000502F8 /* oEconomy.swift in Sources */,
+				F3052BF8286BF2CE000502F8 /* rEntitlements.swift in Sources */,
+				F3052BFC286BF2E5000502F8 /* rEdu.swift in Sources */,
 				F3052BB7286BE1CE000502F8 /* AppDelegate.swift in Sources */,
+				F3052BD0286BF027000502F8 /* oz.swift in Sources */,
+				F3052C06286BF361000502F8 /* hGun.swift in Sources */,
+				F3052BD8286BF08E000502F8 /* fEntitlements.swift in Sources */,
+				F3052BF2286BF2A7000502F8 /* rAbortion.swift in Sources */,
+				F3052C0E286BF39C000502F8 /* hClimate.swift in Sources */,
+				F3052C0A286BF386000502F8 /* hImmigration.swift in Sources */,
+				F3052BEA286BF26B000502F8 /* oEdu.swift in Sources */,
+				F3052BE4286BF24B000502F8 /* oGun.swift in Sources */,
+				F3052BF4286BF2B2000502F8 /* rEconomy.swift in Sources */,
 				F3052BB9286BE1CE000502F8 /* SceneDelegate.swift in Sources */,
+				F3052BFA286BF2DC000502F8 /* rImmigration.swift in Sources */,
+				F3052BEC286BF274000502F8 /* oClimate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
