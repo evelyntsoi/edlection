@@ -1,15 +1,14 @@
 //
-//  rGun.swift
+//  allCandidates.swift
 //  edlection
 //
-//  Created by Evelyn T. on 6/28/22.
+//  Created by Sarah Byun on 6/30/22.
 //
 
 import UIKit
 
-class rGun: UIViewController {
+class allCandidates: UIViewController {
 
-    @IBOutlet weak var gunCrime: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

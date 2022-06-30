@@ -39,6 +39,7 @@
 		8F45FA19286D640700A143E3 /* jImmigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA18286D640700A143E3 /* jImmigration.swift */; };
 		8F45FA1B286D641D00A143E3 /* jEducation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA1A286D641D00A143E3 /* jEducation.swift */; };
 		8F45FA1D286D643200A143E3 /* jClimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA1C286D643200A143E3 /* jClimate.swift */; };
+		8F45FA1F286E0E4C00A143E3 /* allCandidates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA1E286E0E4C00A143E3 /* allCandidates.swift */; };
 		F3052BB7286BE1CE000502F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BB6286BE1CE000502F8 /* AppDelegate.swift */; };
 		F3052BB9286BE1CE000502F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BB8286BE1CE000502F8 /* SceneDelegate.swift */; };
 		F3052BBB286BE1CE000502F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BBA286BE1CE000502F8 /* ViewController.swift */; };
@@ -114,6 +115,7 @@
 		8F45FA18286D640700A143E3 /* jImmigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jImmigration.swift; sourceTree = "<group>"; };
 		8F45FA1A286D641D00A143E3 /* jEducation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jEducation.swift; sourceTree = "<group>"; };
 		8F45FA1C286D643200A143E3 /* jClimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jClimate.swift; sourceTree = "<group>"; };
+		8F45FA1E286E0E4C00A143E3 /* allCandidates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allCandidates.swift; sourceTree = "<group>"; };
 		F3052BB3286BE1CE000502F8 /* edlection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edlection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3052BB6286BE1CE000502F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3052BB8286BE1CE000502F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				F3052BB8286BE1CE000502F8 /* SceneDelegate.swift */,
 				F3052BBA286BE1CE000502F8 /* ViewController.swift */,
 				F3052BBC286BE1CE000502F8 /* Main.storyboard */,
+				8F45FA1E286E0E4C00A143E3 /* allCandidates.swift */,
 				F3052BC2286BE1D1000502F8 /* Assets.xcassets */,
 				F3052BC4286BE1D1000502F8 /* LaunchScreen.storyboard */,
 				F3052BC7286BE1D1000502F8 /* Info.plist */,
@@ -437,6 +440,7 @@
 				F3052BD2286BF051000502F8 /* fAbortion.swift in Sources */,
 				F3052BE2286BF23F000502F8 /* oEconomy.swift in Sources */,
 				F3052BF8286BF2CE000502F8 /* rEntitlements.swift in Sources */,
+				8F45FA1F286E0E4C00A143E3 /* allCandidates.swift in Sources */,
 				F3052BFC286BF2E5000502F8 /* rEdu.swift in Sources */,
 				8F45FA04286D628500A143E3 /* tEcon.swift in Sources */,
 				F3052BB7286BE1CE000502F8 /* AppDelegate.swift in Sources */,

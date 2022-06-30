@@ -15,28 +15,52 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="1-1" translatesAutoresizingMaskIntoConstraints="NO" id="xe8-9G-7D3">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJM-cg-BPl">
+                                <rect key="frame" x="295" y="796" width="44" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xe8-9G-7D3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="phc-ti-J9C"/>
+                            <constraint firstItem="xe8-9G-7D3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xuG-Jk-bG3"/>
+                        </constraints>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="TLC-BR-JTr"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="edlectionFront" destination="xe8-9G-7D3" id="r9W-tM-ohf"/>
+                        <outlet property="nextLabel" destination="iJM-cg-BPl" id="YNv-Qm-52Y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-349" y="82"/>
+            <point key="canvasLocation" x="-349.27536231884062" y="81.696428571428569"/>
         </scene>
         <!--Fetterman-->
         <scene sceneID="BBa-K9-Xnj">
             <objects>
                 <viewController id="4oV-LM-5Gb" customClass="fetterman" customModule="edlection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Mc-BI-9dj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="pYY-q0-V4P">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="-27" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUm-36-6Le">
                                 <rect key="frame" x="63" y="222" width="288" height="50"/>
-                                <color key="tintColor" red="0.66521171696321835" green="0.53909023782593546" blue="0.47477626300154846" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ABORTION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -52,6 +76,7 @@
                                     <constraint firstAttribute="height" constant="50" id="eyJ-6x-wok"/>
                                     <constraint firstAttribute="width" constant="288" id="t1g-12-FNj"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ECONOMY">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -67,6 +92,7 @@
                                     <constraint firstAttribute="width" constant="288" id="VdK-iQ-4AM"/>
                                     <constraint firstAttribute="height" constant="50" id="l1W-gN-hTB"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ENTITLEMENTS">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -82,6 +108,7 @@
                                     <constraint firstAttribute="height" constant="50" id="2lY-k5-Wen"/>
                                     <constraint firstAttribute="width" constant="288" id="vvl-hV-Rkb"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="IMMIGRATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -96,8 +123,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="MUf-EE-lxt"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="PUBLIC INFRASTRUCTURE">
+                                <buttonConfiguration key="configuration" style="filled" title="EDUCATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -111,6 +139,7 @@
                                     <constraint firstAttribute="width" constant="288" id="awP-J0-tYg"/>
                                     <constraint firstAttribute="height" constant="50" id="dPr-OK-qE2"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="CLIMATE">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -126,6 +155,7 @@
                                     <constraint firstAttribute="height" constant="50" id="Jdy-pP-dJW"/>
                                     <constraint firstAttribute="width" constant="288" id="SUK-NU-82u"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="GUN VIOLENCE">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -171,6 +201,7 @@
                             <constraint firstItem="4i5-gp-zHV" firstAttribute="leading" secondItem="Sae-nN-HDC" secondAttribute="leading" constant="63" id="whE-Rk-dse"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="apQ-Ko-h89"/>
                     <connections>
                         <outlet property="fettermanImage" destination="pYY-q0-V4P" id="XqW-VR-sAl"/>
                     </connections>
@@ -178,6 +209,102 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gcR-CZ-Cie" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="482.60869565217394" y="81.696428571428569"/>
+        </scene>
+        <!--All Candidates-->
+        <scene sceneID="O7Z-ge-CLR">
+            <objects>
+                <viewController id="XfO-CS-oMi" customClass="allCandidates" customModule="edlection" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TmY-Jq-Kre">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="ldi-I3-uYG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3I-Vc-fr3">
+                                <rect key="frame" x="25" y="571" width="212" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Sen. Catherine Cortez-Masto"/>
+                                <connections>
+                                    <segue destination="Wjc-8d-A7f" kind="show" id="QFG-rN-2z2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Bk-KL-PB8">
+                                <rect key="frame" x="85" y="626" width="206" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Adam Laxalt"/>
+                                <connections>
+                                    <segue destination="BEF-nz-Zoh" kind="show" id="exp-bP-uhV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whb-R1-fil">
+                                <rect key="frame" x="43" y="766" width="117" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Rep. Tim Ryan"/>
+                                <connections>
+                                    <segue destination="0Fw-EC-7IV" kind="show" id="Y4N-2n-NyS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t2E-8y-FZ3">
+                                <rect key="frame" x="60" y="208" width="210" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Lt. Governor John Fetterman"/>
+                                <connections>
+                                    <segue destination="4oV-LM-5Gb" kind="show" id="bX8-dO-Yn9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chg-zg-LV2">
+                                <rect key="frame" x="105" y="256" width="121" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Dr. Mehmet Oz"/>
+                                <connections>
+                                    <segue destination="ifd-l2-sgl" kind="show" id="VMD-WJ-nLI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZtB-9b-01P">
+                                <rect key="frame" x="45" y="378" width="169" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Sen. Raphael Warnock"/>
+                                <connections>
+                                    <segue destination="IDE-JU-XhH" kind="show" id="Tpz-ll-VHP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAJ-Ix-nF2">
+                                <rect key="frame" x="65" y="433" width="129" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Herschel Walker"/>
+                                <connections>
+                                    <segue destination="pJz-2g-cA0" kind="show" id="DpC-wD-FjF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qj-TR-b0i">
+                                <rect key="frame" x="61" y="805" width="260" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="James David Vance"/>
+                                <connections>
+                                    <segue destination="0Bc-bI-cGW" kind="show" id="bh3-aL-XKM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BKT-ha-TdP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ldi-I3-uYG" firstAttribute="centerX" secondItem="TmY-Jq-Kre" secondAttribute="centerX" id="9DL-70-NP3"/>
+                            <constraint firstItem="ldi-I3-uYG" firstAttribute="centerY" secondItem="TmY-Jq-Kre" secondAttribute="centerY" id="Uph-NA-ayJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mdq-Yf-vK3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-371.01449275362324" y="753.34821428571422"/>
         </scene>
         <!--Abortion-->
         <scene sceneID="v2k-xx-yTe">
@@ -217,6 +344,10 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="BGm-xu-thq">
                                 <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="arrow.backward" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="MpJ-Xv-qwd">
+                                <rect key="frame" x="100" y="798" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ndq-og-PUq"/>
@@ -352,11 +483,12 @@
             <objects>
                 <viewController id="ifd-l2-sgl" customClass="oz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CBm-3V-0Wv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="10" translatesAutoresizingMaskIntoConstraints="NO" id="CN8-oz-5Tj">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="-27" width="414" height="896"/>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZw-xu-nNw">
                                 <rect key="frame" x="63" y="234" width="288" height="45.5"/>
@@ -364,6 +496,7 @@
                                     <constraint firstAttribute="height" constant="45.5" id="1d1-t0-qY1"/>
                                     <constraint firstAttribute="width" constant="288" id="XzQ-g7-JEZ"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ABORTION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -379,6 +512,7 @@
                                     <constraint firstAttribute="height" constant="45.5" id="eiG-76-6CK"/>
                                     <constraint firstAttribute="width" constant="288" id="qT8-cr-Ehb"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ECONOMY">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -394,6 +528,7 @@
                                     <constraint firstAttribute="height" constant="45.5" id="IT9-Uy-Mci"/>
                                     <constraint firstAttribute="width" constant="288" id="eID-Vd-33f"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="GUNS AND CRIME">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -409,6 +544,7 @@
                                     <constraint firstAttribute="height" constant="45.5" id="Opw-2U-iv2"/>
                                     <constraint firstAttribute="width" constant="288" id="T51-EJ-12j"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ENTITLEMENTS">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -424,6 +560,7 @@
                                     <constraint firstAttribute="height" constant="45.5" id="2bo-5F-2Ja"/>
                                     <constraint firstAttribute="width" constant="288" id="QRq-hx-wQG"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="IMMIGRATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -439,6 +576,7 @@
                                     <constraint firstAttribute="height" constant="45.5" id="7cI-IU-r6Y"/>
                                     <constraint firstAttribute="width" constant="288" id="VYn-HW-qEA"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="EDUCATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -454,6 +592,7 @@
                                     <constraint firstAttribute="width" constant="288" id="EE0-Jt-Ery"/>
                                     <constraint firstAttribute="height" constant="45.5" id="GfP-em-KJo"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="CLIMATE CHANGE">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -482,8 +621,10 @@
                             <constraint firstItem="hKg-T7-Qxo" firstAttribute="trailing" secondItem="D2q-QI-WJS" secondAttribute="trailing" constant="63" id="U8j-Wn-WTJ"/>
                             <constraint firstItem="ORb-L0-TDP" firstAttribute="top" secondItem="pZw-xu-nNw" secondAttribute="bottom" constant="32" id="UUz-80-7bH"/>
                             <constraint firstItem="ORb-L0-TDP" firstAttribute="leading" secondItem="hKg-T7-Qxo" secondAttribute="leading" constant="63" id="Wjh-Rk-4Hs"/>
+                            <constraint firstItem="RBu-jo-kHf" firstAttribute="top" secondItem="ORb-L0-TDP" secondAttribute="bottom" constant="32" id="Yja-Kf-mf6"/>
                             <constraint firstItem="RBu-jo-kHf" firstAttribute="top" secondItem="ORb-L0-TDP" secondAttribute="bottom" constant="32" id="ZMN-Mg-Gah"/>
                             <constraint firstItem="pZw-xu-nNw" firstAttribute="leading" secondItem="hKg-T7-Qxo" secondAttribute="leading" constant="63" id="aNm-qp-Uow"/>
+                            <constraint firstItem="hKg-T7-Qxo" firstAttribute="trailing" secondItem="pZw-xu-nNw" secondAttribute="trailing" constant="63" id="arr-7J-tyr"/>
                             <constraint firstItem="g9U-cF-hSC" firstAttribute="top" secondItem="RBu-jo-kHf" secondAttribute="bottom" constant="32" id="edV-At-fjh"/>
                             <constraint firstItem="D2q-QI-WJS" firstAttribute="top" secondItem="g9U-cF-hSC" secondAttribute="bottom" constant="32" id="gQw-gL-NPK"/>
                             <constraint firstItem="KR8-3U-GQK" firstAttribute="leading" secondItem="hKg-T7-Qxo" secondAttribute="leading" constant="63" id="h0r-Y9-PuA"/>
@@ -491,12 +632,14 @@
                             <constraint firstItem="fRG-OY-hLC" firstAttribute="leading" secondItem="hKg-T7-Qxo" secondAttribute="leading" constant="63" id="m6q-eQ-SUi"/>
                             <constraint firstItem="g9U-cF-hSC" firstAttribute="top" secondItem="RBu-jo-kHf" secondAttribute="bottom" constant="32" id="mZK-RO-PAN"/>
                             <constraint firstItem="g9U-cF-hSC" firstAttribute="leading" secondItem="hKg-T7-Qxo" secondAttribute="leading" constant="63" id="n6q-3b-sCh"/>
+                            <constraint firstItem="g9U-cF-hSC" firstAttribute="top" secondItem="RBu-jo-kHf" secondAttribute="bottom" constant="32" id="pcA-pb-5W9"/>
                             <constraint firstItem="hKg-T7-Qxo" firstAttribute="trailing" secondItem="g9U-cF-hSC" secondAttribute="trailing" constant="63" id="qit-Ql-rMB"/>
                             <constraint firstItem="CN8-oz-5Tj" firstAttribute="centerX" secondItem="CBm-3V-0Wv" secondAttribute="centerX" id="sMB-rH-4J5"/>
                             <constraint firstItem="D2q-QI-WJS" firstAttribute="leading" secondItem="hKg-T7-Qxo" secondAttribute="leading" constant="63" id="vX1-nR-zZH"/>
                             <constraint firstItem="hKg-T7-Qxo" firstAttribute="trailing" secondItem="RBu-jo-kHf" secondAttribute="trailing" constant="63" id="xFS-Ln-Zzw"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="60i-aV-Y3V"/>
                     <connections>
                         <outlet property="mehmetOz" destination="CN8-oz-5Tj" id="Xab-jH-t4N"/>
                     </connections>
@@ -510,11 +653,11 @@
             <objects>
                 <viewController id="IDE-JU-XhH" customClass="raphael" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uTU-sk-mLO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="14" translatesAutoresizingMaskIntoConstraints="NO" id="TFZ-zy-ths">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="-27" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dv4-jW-SJp">
                                 <rect key="frame" x="63" y="623.5" width="288" height="45.5"/>
@@ -524,6 +667,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="hOy-Z2-yQ4"/>
                                     <constraint firstAttribute="height" constant="45.5" id="sf9-I4-fmF"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="EDUCATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -541,6 +685,7 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45.5" id="h4m-bM-U3d"/>
                                     <constraint firstAttribute="height" constant="45.5" id="rBa-TF-nQv"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="IMMIGRATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -556,6 +701,7 @@
                                     <constraint firstAttribute="height" constant="45.5" id="VPQ-SS-cTR"/>
                                     <constraint firstAttribute="width" constant="288" id="gzb-HM-nU6"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ENTITLEMENTS">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -573,6 +719,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="gx5-tp-ftA"/>
                                     <constraint firstAttribute="height" constant="45.5" id="nIA-jc-oSc"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="GUNS AND CRIME">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -590,6 +737,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="cYd-RH-b7p"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45.5" id="lKj-rh-49Y"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ECONOMY">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -607,6 +755,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="JZv-S2-3NR"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45.5" id="aAS-3O-9hg"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ABORTION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -624,6 +773,7 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45.5" id="NQ6-fL-UeF"/>
                                     <constraint firstAttribute="height" constant="45.5" id="aRS-fZ-9eR"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="CLIMATE CHANGE">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -664,6 +814,7 @@
                             <constraint firstItem="cKA-ya-SkL" firstAttribute="top" secondItem="2Gj-oP-u5b" secondAttribute="bottom" constant="32" id="vJi-PX-BTF"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="F5G-V5-v3I"/>
                     <connections>
                         <outlet property="raphaelWarnock" destination="TFZ-zy-ths" id="jWj-X9-N0A"/>
                     </connections>
@@ -677,11 +828,11 @@
             <objects>
                 <viewController id="pJz-2g-cA0" customClass="herschel" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wpp-k7-GTH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="18" translatesAutoresizingMaskIntoConstraints="NO" id="OLD-Uw-wxl">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="-27" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xn5-9P-JnN">
                                 <rect key="frame" x="63" y="621.5" width="288" height="45.5"/>
@@ -693,6 +844,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="hfn-x8-DhR"/>
                                     <constraint firstAttribute="width" constant="288" id="pdy-pA-NjK"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="EDUCATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -712,6 +864,7 @@
                                     <constraint firstAttribute="height" constant="45.5" id="W8V-Mh-J32"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45.5" id="o3x-83-eha"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="IMMIGRATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -721,12 +874,13 @@
                                     <segue destination="CFT-mC-e8F" kind="show" id="0p4-lb-7e4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ST6-eO-lAg">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ST6-eO-lAg">
                                 <rect key="frame" x="63" y="466.5" width="288" height="45.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45.5" id="JAI-z3-1hP"/>
                                     <constraint firstAttribute="width" constant="288" id="K5I-Si-9P6"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ENTITLEMENTS">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -746,6 +900,7 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45.5" id="p9w-e5-tZi"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="ujU-8s-uth"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="GUNS AND CRIME">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -765,6 +920,7 @@
                                     <constraint firstAttribute="width" constant="288" id="boi-dP-mQN"/>
                                     <constraint firstAttribute="height" constant="45.5" id="cru-UB-NMI"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ECONOMY">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -784,6 +940,7 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="gvE-Pz-LP1"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="rHn-ev-jLM"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ABORTION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -803,6 +960,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="ejA-kf-lwz"/>
                                     <constraint firstAttribute="width" constant="288" id="szS-vQ-oiw"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="CLIMATE CHANGE">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -828,6 +986,7 @@
                             <constraint firstItem="ST6-eO-lAg" firstAttribute="top" secondItem="fU6-vu-pMg" secondAttribute="bottom" constant="32" id="C90-bE-FZY"/>
                             <constraint firstItem="Ais-xf-xdH" firstAttribute="top" secondItem="ST6-eO-lAg" secondAttribute="bottom" constant="32" id="F0Z-dd-3gM"/>
                             <constraint firstItem="v6D-HI-rdc" firstAttribute="trailing" secondItem="Ais-xf-xdH" secondAttribute="trailing" constant="63" id="FZs-kh-AKu"/>
+                            <constraint firstItem="ST6-eO-lAg" firstAttribute="leading" secondItem="v6D-HI-rdc" secondAttribute="leading" constant="63" id="KxX-98-7TD"/>
                             <constraint firstItem="poO-QV-a0S" firstAttribute="leading" secondItem="v6D-HI-rdc" secondAttribute="leading" constant="63" id="Mox-jg-3m4"/>
                             <constraint firstItem="JEo-33-oHp" firstAttribute="top" secondItem="poO-QV-a0S" secondAttribute="bottom" constant="32" id="Soh-9k-0DY"/>
                             <constraint firstItem="fU6-vu-pMg" firstAttribute="top" secondItem="JEo-33-oHp" secondAttribute="bottom" constant="32" id="ZRF-zR-6bl"/>
@@ -839,9 +998,11 @@
                             <constraint firstItem="Xn5-9P-JnN" firstAttribute="top" secondItem="Ais-xf-xdH" secondAttribute="bottom" constant="32" id="mGY-ni-rlO"/>
                             <constraint firstItem="JEo-33-oHp" firstAttribute="top" secondItem="poO-QV-a0S" secondAttribute="bottom" constant="32" id="ndc-dh-UB9"/>
                             <constraint firstItem="fU6-vu-pMg" firstAttribute="leading" secondItem="v6D-HI-rdc" secondAttribute="leading" constant="63" id="sGx-Re-3pR"/>
+                            <constraint firstItem="v6D-HI-rdc" firstAttribute="trailing" secondItem="ST6-eO-lAg" secondAttribute="trailing" constant="63" id="sjS-2W-rbq"/>
                             <constraint firstItem="8Ia-Gx-HSE" firstAttribute="leading" secondItem="v6D-HI-rdc" secondAttribute="leading" constant="63" id="yN3-sc-Rdl"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="enZ-I1-nkx"/>
                     <connections>
                         <outlet property="herschel" destination="OLD-Uw-wxl" id="ccW-b3-NFr"/>
                     </connections>
@@ -855,11 +1016,11 @@
             <objects>
                 <viewController id="Wjc-8d-A7f" customClass="cortezmasto" customModule="edlection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="26I-Jn-tNh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="19" translatesAutoresizingMaskIntoConstraints="NO" id="MCQ-Sn-A2r">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="-27" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHx-Db-awV">
                                 <rect key="frame" x="63" y="699" width="288" height="45.5"/>
@@ -873,6 +1034,7 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="llO-Zc-Okn"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="sDm-4l-6fh"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="CLIMATE CHANGE">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -893,6 +1055,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="no6-o9-mAI"/>
                                     <constraint firstAttribute="width" constant="288" id="x5d-61-7yI"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="IMMIGRATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -909,6 +1072,7 @@
                                     <constraint firstAttribute="height" constant="45.5" id="EuQ-Qa-1XR"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="GUu-hD-4ld"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ENTITLEMENTS">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -929,6 +1093,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="rG5-jZ-1Hk"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="zsN-oR-aWa"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="GUNS AND CRIME">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -949,6 +1114,7 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45.5" id="wuu-F1-neW"/>
                                     <constraint firstAttribute="height" constant="45.5" id="x6p-Z2-i5T"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ECONOMY">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -969,6 +1135,7 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="Yvq-rT-crG"/>
                                     <constraint firstAttribute="width" constant="288" id="eGL-aR-aQT"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ABORTION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -989,6 +1156,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="npz-Te-vr2"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="wnW-r6-C2y"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="EDUCATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1032,6 +1200,7 @@
                             <constraint firstItem="Ap8-WK-FCN" firstAttribute="leading" secondItem="Wyf-cm-Qde" secondAttribute="leading" constant="63" id="wWa-eS-lcJ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="QWc-m8-fyF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EO6-D4-rxb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1042,11 +1211,11 @@
             <objects>
                 <viewController id="BEF-nz-Zoh" customClass="adamLaxalt" customModule="edlection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7bW-v7-fOg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="20" translatesAutoresizingMaskIntoConstraints="NO" id="ceR-wi-nhW">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="-27" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzi-Vz-UII">
                                 <rect key="frame" x="63" y="699" width="288" height="45.5"/>
@@ -1062,6 +1231,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="trw-Pq-l3O"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="uug-As-19b"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="CLIMATE CHANGE">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1084,6 +1254,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="lOC-lF-tgn"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45.5" id="yj2-hd-JHZ"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="EDUCATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1106,6 +1277,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="fX1-r4-Zdd"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="iCj-PI-1BK"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="IMMIGRATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1124,6 +1296,7 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="lvO-tm-WPm"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45.5" id="ori-qg-OX5"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ENTITLEMENTS">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1146,6 +1319,7 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="ivw-nD-417"/>
                                     <constraint firstAttribute="width" constant="288" id="nKK-ou-YXt"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ECONOMY">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1168,6 +1342,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="te9-BV-m3G"/>
                                     <constraint firstAttribute="width" constant="288" id="z11-bq-i49"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ABORTION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1190,6 +1365,7 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45.5" id="nq9-Z3-wGa"/>
                                     <constraint firstAttribute="width" constant="288" id="xx5-ar-uJN"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="GUNS AND CRIME">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1233,6 +1409,7 @@
                             <constraint firstItem="Yzi-Vz-UII" firstAttribute="top" secondItem="XAZ-qP-aGM" secondAttribute="bottom" constant="32" id="zgi-2T-eYn"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="JEh-b9-ds8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wye-u9-ujZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1243,11 +1420,11 @@
             <objects>
                 <viewController id="0Fw-EC-7IV" customClass="timRyan" customModule="edlection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oVK-bI-kDp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="21" translatesAutoresizingMaskIntoConstraints="NO" id="aWd-5N-q3K">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="-27" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlw-3o-t5F">
                                 <rect key="frame" x="63" y="621.5" width="288" height="45.5"/>
@@ -1265,6 +1442,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="vLw-f9-epa"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="yRH-s7-DIR"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="EDUCATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1289,6 +1467,7 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="nCR-6T-1oc"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="rpd-UC-H25"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="IMMIGRATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1309,6 +1488,7 @@
                                     <constraint firstAttribute="height" constant="45.5" id="sxM-01-kSM"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="uLL-bN-BLI"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ENTITLEMENTS">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1333,6 +1513,7 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45.5" id="nsu-1o-wx5"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="qfM-cY-fbL"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="GUNS AND CRIME">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1357,6 +1538,7 @@
                                     <constraint firstAttribute="width" constant="288" id="u0F-1J-0Ge"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="xUJ-p3-xqh"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ECONOMY">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1381,6 +1563,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="rSe-aT-Scj"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="xfa-51-Trf"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ABORTION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1405,6 +1588,7 @@
                                     <constraint firstAttribute="height" constant="45.5" id="ryf-Ya-jxl"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="tMY-V8-PNy"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="CLIMATE CHANGE">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1448,6 +1632,7 @@
                             <constraint firstItem="nUz-Ar-qwX" firstAttribute="top" secondItem="vAc-R6-BBG" secondAttribute="bottom" constant="32" id="zX3-t9-wYa"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="VmE-wx-j7e"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EKo-pl-4iy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1458,11 +1643,11 @@
             <objects>
                 <viewController id="0Bc-bI-cGW" customClass="jamesDV" customModule="edlection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kzv-u0-kWU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="22" translatesAutoresizingMaskIntoConstraints="NO" id="sPR-Tp-Gcz">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="-27" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jrd-z1-y13">
                                 <rect key="frame" x="63" y="699" width="288" height="45.5"/>
@@ -1482,6 +1667,7 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="ovF-ID-UnI"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="zoO-1f-Fko"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="CLIMATE CHANGE">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1508,6 +1694,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="mYv-K4-oHg"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="rt8-yE-1gN"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="EDUCATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1530,6 +1717,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="hC2-JT-Grj"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45.5" id="ijQ-JZ-9P3"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ENTITLEMENTS">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1556,6 +1744,7 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="wSL-lt-hGV"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="yEi-Tw-USA"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="GUNS AND CRIME">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1582,6 +1771,7 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="yIp-c5-sgf"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="288" id="zJq-cI-FVV"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ECONOMY">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1608,6 +1798,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="wWy-86-K8K"/>
                                     <constraint firstAttribute="width" constant="288" id="xQ1-Xr-cVe"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ABORTION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1634,6 +1825,7 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="tfQ-OV-RBg"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45.5" id="yv3-lS-RBo"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75294117650000003" green="0.71372549019999998" blue="0.64705882349999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="IMMIGRATION">
                                     <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
@@ -1677,6 +1869,7 @@
                             <constraint firstItem="K3R-87-9HV" firstAttribute="top" secondItem="pKc-YG-98W" secondAttribute="bottom" constant="32" id="zsd-uk-J3a"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="GMJ-dW-BWn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Bz-uS-tcU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1785,10 +1978,22 @@
                     <view key="view" contentMode="scaleToFill" id="2P1-ox-6E7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="19-1" translatesAutoresizingMaskIntoConstraints="NO" id="aad-kl-dC4">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="QgM-LH-Gd2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aad-kl-dC4" firstAttribute="centerY" secondItem="2P1-ox-6E7" secondAttribute="centerY" constant="-27" id="3Wd-7a-nBn"/>
+                            <constraint firstItem="aad-kl-dC4" firstAttribute="centerX" secondItem="2P1-ox-6E7" secondAttribute="centerX" id="buL-FB-5yq"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Oyr-WH-pdb"/>
+                    <connections>
+                        <outlet property="abortion" destination="aad-kl-dC4" id="ny4-0y-qoA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jyD-wX-hj2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1801,10 +2006,22 @@
                     <view key="view" contentMode="scaleToFill" id="tjh-5u-tz7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="20-1" translatesAutoresizingMaskIntoConstraints="NO" id="2hY-Iu-GM7">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="hP9-6r-Rw7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2hY-Iu-GM7" firstAttribute="centerX" secondItem="tjh-5u-tz7" secondAttribute="centerX" id="dMU-Up-31u"/>
+                            <constraint firstItem="2hY-Iu-GM7" firstAttribute="centerY" secondItem="tjh-5u-tz7" secondAttribute="centerY" constant="-27" id="lFS-0e-i9m"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LW6-Jr-poE"/>
+                    <connections>
+                        <outlet property="econ" destination="2hY-Iu-GM7" id="eX3-cf-wCj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W8q-vp-XAM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1817,10 +2034,22 @@
                     <view key="view" contentMode="scaleToFill" id="fkn-yq-egG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="21-1" translatesAutoresizingMaskIntoConstraints="NO" id="A6e-0K-Tk9">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="3z0-Y6-BKK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="A6e-0K-Tk9" firstAttribute="centerX" secondItem="fkn-yq-egG" secondAttribute="centerX" id="njN-sI-JMA"/>
+                            <constraint firstItem="A6e-0K-Tk9" firstAttribute="centerY" secondItem="fkn-yq-egG" secondAttribute="centerY" constant="-27" id="qhq-Zi-9Pq"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8QR-jo-LlV"/>
+                    <connections>
+                        <outlet property="gunCrime" destination="A6e-0K-Tk9" id="oiu-J8-k4g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D8L-vd-nxu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1833,8 +2062,17 @@
                     <view key="view" contentMode="scaleToFill" id="Kik-wy-CTi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="22-1" translatesAutoresizingMaskIntoConstraints="NO" id="itZ-aN-9dD">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="nUj-hJ-QP4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="itZ-aN-9dD" firstAttribute="centerY" secondItem="Kik-wy-CTi" secondAttribute="centerY" constant="-27" id="flX-8a-U87"/>
+                            <constraint firstItem="itZ-aN-9dD" firstAttribute="centerX" secondItem="Kik-wy-CTi" secondAttribute="centerX" id="tV1-ff-zXm"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FJ9-go-bny"/>
                 </viewController>
@@ -1849,8 +2087,17 @@
                     <view key="view" contentMode="scaleToFill" id="uIr-v2-ye3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="24" translatesAutoresizingMaskIntoConstraints="NO" id="EfS-Gg-VOY">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="2C1-Lc-dFQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EfS-Gg-VOY" firstAttribute="centerY" secondItem="uIr-v2-ye3" secondAttribute="centerY" constant="-27" id="ehp-xG-46f"/>
+                            <constraint firstItem="EfS-Gg-VOY" firstAttribute="centerX" secondItem="uIr-v2-ye3" secondAttribute="centerX" id="qRe-7m-15r"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="E2d-JG-ZhP"/>
                 </viewController>
@@ -1865,8 +2112,17 @@
                     <view key="view" contentMode="scaleToFill" id="cFH-yo-ZnL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="23" translatesAutoresizingMaskIntoConstraints="NO" id="aGZ-cL-s0O">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="QjM-rl-ZbL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aGZ-cL-s0O" firstAttribute="centerX" secondItem="cFH-yo-ZnL" secondAttribute="centerX" id="7g3-8t-iiQ"/>
+                            <constraint firstItem="aGZ-cL-s0O" firstAttribute="centerY" secondItem="cFH-yo-ZnL" secondAttribute="centerY" constant="-27" id="R9s-5m-mNy"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gcm-w3-v6o"/>
                 </viewController>
@@ -1977,8 +2233,17 @@
                     <view key="view" contentMode="scaleToFill" id="Yvf-gt-cpN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="35" translatesAutoresizingMaskIntoConstraints="NO" id="129-mM-sOm">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="zRB-eK-gpJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="129-mM-sOm" firstAttribute="centerY" secondItem="Yvf-gt-cpN" secondAttribute="centerY" constant="-27" id="eVb-JZ-1d3"/>
+                            <constraint firstItem="129-mM-sOm" firstAttribute="centerX" secondItem="Yvf-gt-cpN" secondAttribute="centerX" id="iRe-hd-SQf"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jIi-Th-ruv"/>
                 </viewController>
@@ -1993,8 +2258,17 @@
                     <view key="view" contentMode="scaleToFill" id="tWm-v1-jOz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="36" translatesAutoresizingMaskIntoConstraints="NO" id="HEH-Ph-ddo">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Yiw-YR-a08"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HEH-Ph-ddo" firstAttribute="centerX" secondItem="tWm-v1-jOz" secondAttribute="centerX" id="MP0-Ih-SUA"/>
+                            <constraint firstItem="HEH-Ph-ddo" firstAttribute="centerY" secondItem="tWm-v1-jOz" secondAttribute="centerY" constant="-27" id="pmY-pa-s55"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="afq-4y-Hx4"/>
                 </viewController>
@@ -2009,8 +2283,17 @@
                     <view key="view" contentMode="scaleToFill" id="wVB-Tz-Cqa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="37" translatesAutoresizingMaskIntoConstraints="NO" id="hbl-pf-UxM">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="efj-IF-A5h"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hbl-pf-UxM" firstAttribute="centerX" secondItem="wVB-Tz-Cqa" secondAttribute="centerX" id="IBW-cU-gKi"/>
+                            <constraint firstItem="hbl-pf-UxM" firstAttribute="centerY" secondItem="wVB-Tz-Cqa" secondAttribute="centerY" constant="-27" id="OGh-V8-cUq"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4Bs-he-kxJ"/>
                 </viewController>
@@ -2025,8 +2308,17 @@
                     <view key="view" contentMode="scaleToFill" id="TKm-NZ-bj5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="38" translatesAutoresizingMaskIntoConstraints="NO" id="YrQ-fz-mxD">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="hrB-IC-oMd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YrQ-fz-mxD" firstAttribute="centerX" secondItem="TKm-NZ-bj5" secondAttribute="centerX" id="X9l-xe-dOk"/>
+                            <constraint firstItem="YrQ-fz-mxD" firstAttribute="centerY" secondItem="TKm-NZ-bj5" secondAttribute="centerY" constant="-27" id="y5Q-5z-8gg"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Mvy-vx-D9f"/>
                 </viewController>
@@ -2041,8 +2333,17 @@
                     <view key="view" contentMode="scaleToFill" id="gbC-NF-aYD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="40" translatesAutoresizingMaskIntoConstraints="NO" id="8tm-6X-mix">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="qgo-94-AX6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8tm-6X-mix" firstAttribute="centerY" secondItem="gbC-NF-aYD" secondAttribute="centerY" constant="-27" id="QCf-Io-n9f"/>
+                            <constraint firstItem="8tm-6X-mix" firstAttribute="centerX" secondItem="gbC-NF-aYD" secondAttribute="centerX" id="x5L-Pj-Ti9"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kbk-FO-tmI"/>
                 </viewController>
@@ -2057,8 +2358,17 @@
                     <view key="view" contentMode="scaleToFill" id="ef8-w8-BP6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="39" translatesAutoresizingMaskIntoConstraints="NO" id="djw-fH-q39">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="dmS-Xl-3gV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="djw-fH-q39" firstAttribute="centerX" secondItem="ef8-w8-BP6" secondAttribute="centerX" id="Ktm-Wy-rF6"/>
+                            <constraint firstItem="djw-fH-q39" firstAttribute="centerY" secondItem="ef8-w8-BP6" secondAttribute="centerY" constant="-27" id="Mbx-eJ-teb"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ytn-xQ-6ok"/>
                 </viewController>
@@ -2169,8 +2479,17 @@
                     <view key="view" contentMode="scaleToFill" id="iJ3-hb-qh0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="44" translatesAutoresizingMaskIntoConstraints="NO" id="U5Q-Ft-qcR">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="TlJ-Lv-hCW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="U5Q-Ft-qcR" firstAttribute="centerX" secondItem="iJ3-hb-qh0" secondAttribute="centerX" id="ens-R6-1kt"/>
+                            <constraint firstItem="U5Q-Ft-qcR" firstAttribute="centerY" secondItem="iJ3-hb-qh0" secondAttribute="centerY" constant="-27" id="jCY-Ph-hyd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Cuz-m3-WmC"/>
                 </viewController>
@@ -2185,8 +2504,17 @@
                     <view key="view" contentMode="scaleToFill" id="mDI-vN-xLb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="45" translatesAutoresizingMaskIntoConstraints="NO" id="cqg-uo-tyA">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="wcA-Kp-PiP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cqg-uo-tyA" firstAttribute="centerY" secondItem="mDI-vN-xLb" secondAttribute="centerY" constant="-27" id="01O-fb-VNa"/>
+                            <constraint firstItem="cqg-uo-tyA" firstAttribute="centerX" secondItem="mDI-vN-xLb" secondAttribute="centerX" id="Fpl-kw-e3j"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1K0-me-MfI"/>
                 </viewController>
@@ -2201,8 +2529,17 @@
                     <view key="view" contentMode="scaleToFill" id="Jjo-UK-rtp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="46" translatesAutoresizingMaskIntoConstraints="NO" id="acl-QK-XXR">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="PgN-9h-iXA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="acl-QK-XXR" firstAttribute="centerY" secondItem="Jjo-UK-rtp" secondAttribute="centerY" constant="-27" id="Fbp-61-Okm"/>
+                            <constraint firstItem="acl-QK-XXR" firstAttribute="centerX" secondItem="Jjo-UK-rtp" secondAttribute="centerX" id="cJJ-gC-UK9"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oSx-z1-1O5"/>
                 </viewController>
@@ -2217,8 +2554,17 @@
                     <view key="view" contentMode="scaleToFill" id="t5Y-My-LW3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="47" translatesAutoresizingMaskIntoConstraints="NO" id="DhI-J2-qF1">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="gWp-yj-Ugg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DhI-J2-qF1" firstAttribute="centerX" secondItem="t5Y-My-LW3" secondAttribute="centerX" id="13b-el-yZ5"/>
+                            <constraint firstItem="DhI-J2-qF1" firstAttribute="centerY" secondItem="t5Y-My-LW3" secondAttribute="centerY" constant="-27" id="L3p-3J-mQG"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XiF-5R-O5i"/>
                 </viewController>
@@ -2233,8 +2579,17 @@
                     <view key="view" contentMode="scaleToFill" id="b9w-Lx-AKN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="49" translatesAutoresizingMaskIntoConstraints="NO" id="uRw-Pe-YAQ">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="v8h-lN-Hca"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uRw-Pe-YAQ" firstAttribute="centerY" secondItem="b9w-Lx-AKN" secondAttribute="centerY" constant="-27" id="A2u-bY-01f"/>
+                            <constraint firstItem="uRw-Pe-YAQ" firstAttribute="centerX" secondItem="b9w-Lx-AKN" secondAttribute="centerX" id="xai-xg-M0M"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pUL-C6-xxZ"/>
                 </viewController>
@@ -2249,8 +2604,17 @@
                     <view key="view" contentMode="scaleToFill" id="89j-Xc-A8Z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="48" translatesAutoresizingMaskIntoConstraints="NO" id="4nG-tD-oxf">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Mrb-yZ-YcF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4nG-tD-oxf" firstAttribute="centerY" secondItem="89j-Xc-A8Z" secondAttribute="centerY" constant="-27" id="Jv1-8B-oAe"/>
+                            <constraint firstItem="4nG-tD-oxf" firstAttribute="centerX" secondItem="89j-Xc-A8Z" secondAttribute="centerX" id="qLe-on-fYP"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GHY-bB-Ytz"/>
                 </viewController>
@@ -2405,8 +2769,17 @@
                     <view key="view" contentMode="scaleToFill" id="whl-1P-Bc1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="25" translatesAutoresizingMaskIntoConstraints="NO" id="hvk-Hs-Axz">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Ps9-0c-kTr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hvk-Hs-Axz" firstAttribute="centerX" secondItem="whl-1P-Bc1" secondAttribute="centerX" id="EaT-Ks-vey"/>
+                            <constraint firstItem="hvk-Hs-Axz" firstAttribute="centerY" secondItem="whl-1P-Bc1" secondAttribute="centerY" constant="-27" id="Ed0-3T-Ygi"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ya8-pu-3y4"/>
                 </viewController>
@@ -2437,8 +2810,17 @@
                     <view key="view" contentMode="scaleToFill" id="zi3-sJ-HXT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="41" translatesAutoresizingMaskIntoConstraints="NO" id="ED4-Fi-Yyq">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="D6b-IU-DvO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ED4-Fi-Yyq" firstAttribute="centerX" secondItem="zi3-sJ-HXT" secondAttribute="centerX" id="9fB-fT-tFU"/>
+                            <constraint firstItem="ED4-Fi-Yyq" firstAttribute="centerY" secondItem="zi3-sJ-HXT" secondAttribute="centerY" constant="-27" id="wzx-9H-T1u"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SUB-2t-vUt"/>
                 </viewController>
@@ -2469,8 +2851,17 @@
                     <view key="view" contentMode="scaleToFill" id="kD9-7p-YyN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="50" translatesAutoresizingMaskIntoConstraints="NO" id="Aen-RC-MRL">
+                                <rect key="frame" x="0.0" y="-54" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="4UZ-iJ-vAg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Aen-RC-MRL" firstAttribute="centerY" secondItem="kD9-7p-YyN" secondAttribute="centerY" constant="-27" id="AZb-T7-lKW"/>
+                            <constraint firstItem="Aen-RC-MRL" firstAttribute="centerX" secondItem="kD9-7p-YyN" secondAttribute="centerX" id="ZxB-fQ-AgK"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wpo-HH-Get"/>
                 </viewController>
@@ -2497,19 +2888,43 @@
     </scenes>
     <resources>
         <image name="1" width="414" height="896"/>
+        <image name="1-1" width="414" height="896"/>
         <image name="10" width="414" height="896"/>
         <image name="14" width="414" height="896"/>
         <image name="18" width="414" height="896"/>
         <image name="19" width="414" height="896"/>
+        <image name="19-1" width="414" height="896"/>
+        <image name="2" width="414" height="896"/>
         <image name="20" width="414" height="896"/>
+        <image name="20-1" width="414" height="896"/>
         <image name="21" width="414" height="896"/>
+        <image name="21-1" width="414" height="896"/>
         <image name="22" width="414" height="896"/>
+        <image name="22-1" width="414" height="896"/>
+        <image name="23" width="414" height="896"/>
+        <image name="24" width="414" height="896"/>
+        <image name="25" width="414" height="896"/>
         <image name="3" width="414" height="896"/>
+        <image name="35" width="414" height="896"/>
+        <image name="36" width="414" height="896"/>
+        <image name="37" width="414" height="896"/>
+        <image name="38" width="414" height="896"/>
+        <image name="39" width="414" height="896"/>
         <image name="4" width="414" height="896"/>
+        <image name="40" width="414" height="896"/>
+        <image name="41" width="414" height="896"/>
+        <image name="44" width="414" height="896"/>
+        <image name="45" width="414" height="896"/>
+        <image name="46" width="414" height="896"/>
+        <image name="47" width="414" height="896"/>
+        <image name="48" width="414" height="896"/>
+        <image name="49" width="414" height="896"/>
         <image name="5" width="414" height="896"/>
+        <image name="50" width="414" height="896"/>
         <image name="6" width="414" height="896"/>
         <image name="8" width="414" height="896"/>
         <image name="Simple Lined White Map Page Wireframe Mobile UI Prototype-2" width="414" height="896"/>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <image name="education" width="414" height="896"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

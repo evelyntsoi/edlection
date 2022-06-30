@@ -9,6 +9,7 @@ import UIKit
 
 class rEconomy: UIViewController {
 
+    @IBOutlet weak var econ: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
