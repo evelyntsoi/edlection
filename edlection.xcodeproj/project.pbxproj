@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F45F9D3286D5D6D00A143E3 /* cortezmasto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9D2286D5D6D00A143E3 /* cortezmasto.swift */; };
+		8F45F9D6286D5E0E00A143E3 /* cabortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9D5286D5E0E00A143E3 /* cabortion.swift */; };
+		8F45F9D9286D5E6100A143E3 /* c-economy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9D8286D5E6100A143E3 /* c-economy.swift */; };
+		8F45F9DB286D5E9B00A143E3 /* c-gun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9DA286D5E9B00A143E3 /* c-gun.swift */; };
+		8F45F9DD286D5EBA00A143E3 /* c-entitlements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9DC286D5EBA00A143E3 /* c-entitlements.swift */; };
+		8F45F9DF286D5EEA00A143E3 /* c-immigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9DE286D5EEA00A143E3 /* c-immigration.swift */; };
+		8F45F9E1286D5F1900A143E3 /* c-education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9E0286D5F1900A143E3 /* c-education.swift */; };
+		8F45F9E3286D5F3E00A143E3 /* c-Climate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9E2286D5F3E00A143E3 /* c-Climate.swift */; };
+		8F45F9E7286D5FF700A143E3 /* adamLaxalt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9E6286D5FF700A143E3 /* adamLaxalt.swift */; };
+		8F45F9E9286D604600A143E3 /* A-abortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9E8286D604600A143E3 /* A-abortion.swift */; };
+		8F45F9EF286D60D800A143E3 /* A-economy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9EE286D60D800A143E3 /* A-economy.swift */; };
+		8F45F9F1286D60EE00A143E3 /* A-Gun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9F0286D60EE00A143E3 /* A-Gun.swift */; };
+		8F45F9F3286D610700A143E3 /* A-entitlements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9F2286D610700A143E3 /* A-entitlements.swift */; };
+		8F45F9F5286D612100A143E3 /* A-immigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9F4286D612100A143E3 /* A-immigration.swift */; };
+		8F45F9F7286D613800A143E3 /* A-education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9F6286D613800A143E3 /* A-education.swift */; };
+		8F45F9F9286D615A00A143E3 /* A-Climate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9F8286D615A00A143E3 /* A-Climate.swift */; };
+		8F45F9FB286D61B000A143E3 /* timRyan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9FA286D61B000A143E3 /* timRyan.swift */; };
+		8F45F9FD286D61F000A143E3 /* Tabortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9FC286D61F000A143E3 /* Tabortion.swift */; };
+		8F45FA02286D626900A143E3 /* Tgun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA01286D626900A143E3 /* Tgun.swift */; };
+		8F45FA04286D628500A143E3 /* tEcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA03286D628500A143E3 /* tEcon.swift */; };
+		8F45FA06286D629800A143E3 /* tEntitlements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA05286D629800A143E3 /* tEntitlements.swift */; };
+		8F45FA08286D62EF00A143E3 /* tImmigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA07286D62EF00A143E3 /* tImmigration.swift */; };
+		8F45FA0A286D630900A143E3 /* tEducation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA09286D630900A143E3 /* tEducation.swift */; };
+		8F45FA0C286D631E00A143E3 /* tClimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA0B286D631E00A143E3 /* tClimate.swift */; };
+		8F45FA0E286D635700A143E3 /* jamesDV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA0D286D635700A143E3 /* jamesDV.swift */; };
+		8F45FA10286D637C00A143E3 /* jdvabortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA0F286D637C00A143E3 /* jdvabortion.swift */; };
+		8F45FA13286D63C700A143E3 /* jEcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA12286D63C700A143E3 /* jEcon.swift */; };
+		8F45FA15286D63E000A143E3 /* jGun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA14286D63E000A143E3 /* jGun.swift */; };
+		8F45FA17286D63F600A143E3 /* jEntitlements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA16286D63F600A143E3 /* jEntitlements.swift */; };
+		8F45FA19286D640700A143E3 /* jImmigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA18286D640700A143E3 /* jImmigration.swift */; };
+		8F45FA1B286D641D00A143E3 /* jEducation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA1A286D641D00A143E3 /* jEducation.swift */; };
+		8F45FA1D286D643200A143E3 /* jClimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA1C286D643200A143E3 /* jClimate.swift */; };
 		F3052BB7286BE1CE000502F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BB6286BE1CE000502F8 /* AppDelegate.swift */; };
 		F3052BB9286BE1CE000502F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BB8286BE1CE000502F8 /* SceneDelegate.swift */; };
 		F3052BBB286BE1CE000502F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BBA286BE1CE000502F8 /* ViewController.swift */; };
@@ -50,6 +82,38 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F45F9D2286D5D6D00A143E3 /* cortezmasto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cortezmasto.swift; sourceTree = "<group>"; };
+		8F45F9D5286D5E0E00A143E3 /* cabortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cabortion.swift; sourceTree = "<group>"; };
+		8F45F9D8286D5E6100A143E3 /* c-economy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "c-economy.swift"; sourceTree = "<group>"; };
+		8F45F9DA286D5E9B00A143E3 /* c-gun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "c-gun.swift"; sourceTree = "<group>"; };
+		8F45F9DC286D5EBA00A143E3 /* c-entitlements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "c-entitlements.swift"; sourceTree = "<group>"; };
+		8F45F9DE286D5EEA00A143E3 /* c-immigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "c-immigration.swift"; sourceTree = "<group>"; };
+		8F45F9E0286D5F1900A143E3 /* c-education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "c-education.swift"; sourceTree = "<group>"; };
+		8F45F9E2286D5F3E00A143E3 /* c-Climate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "c-Climate.swift"; sourceTree = "<group>"; };
+		8F45F9E6286D5FF700A143E3 /* adamLaxalt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adamLaxalt.swift; sourceTree = "<group>"; };
+		8F45F9E8286D604600A143E3 /* A-abortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A-abortion.swift"; sourceTree = "<group>"; };
+		8F45F9EE286D60D800A143E3 /* A-economy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A-economy.swift"; sourceTree = "<group>"; };
+		8F45F9F0286D60EE00A143E3 /* A-Gun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A-Gun.swift"; sourceTree = "<group>"; };
+		8F45F9F2286D610700A143E3 /* A-entitlements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A-entitlements.swift"; sourceTree = "<group>"; };
+		8F45F9F4286D612100A143E3 /* A-immigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A-immigration.swift"; sourceTree = "<group>"; };
+		8F45F9F6286D613800A143E3 /* A-education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A-education.swift"; sourceTree = "<group>"; };
+		8F45F9F8286D615A00A143E3 /* A-Climate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A-Climate.swift"; sourceTree = "<group>"; };
+		8F45F9FA286D61B000A143E3 /* timRyan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timRyan.swift; sourceTree = "<group>"; };
+		8F45F9FC286D61F000A143E3 /* Tabortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tabortion.swift; path = edlection/timry/Tabortion.swift; sourceTree = SOURCE_ROOT; };
+		8F45FA01286D626900A143E3 /* Tgun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tgun.swift; sourceTree = "<group>"; };
+		8F45FA03286D628500A143E3 /* tEcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tEcon.swift; sourceTree = "<group>"; };
+		8F45FA05286D629800A143E3 /* tEntitlements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tEntitlements.swift; sourceTree = "<group>"; };
+		8F45FA07286D62EF00A143E3 /* tImmigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tImmigration.swift; sourceTree = "<group>"; };
+		8F45FA09286D630900A143E3 /* tEducation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tEducation.swift; sourceTree = "<group>"; };
+		8F45FA0B286D631E00A143E3 /* tClimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tClimate.swift; sourceTree = "<group>"; };
+		8F45FA0D286D635700A143E3 /* jamesDV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jamesDV.swift; sourceTree = "<group>"; };
+		8F45FA0F286D637C00A143E3 /* jdvabortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jdvabortion.swift; sourceTree = "<group>"; };
+		8F45FA12286D63C700A143E3 /* jEcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jEcon.swift; sourceTree = "<group>"; };
+		8F45FA14286D63E000A143E3 /* jGun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jGun.swift; sourceTree = "<group>"; };
+		8F45FA16286D63F600A143E3 /* jEntitlements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jEntitlements.swift; sourceTree = "<group>"; };
+		8F45FA18286D640700A143E3 /* jImmigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jImmigration.swift; sourceTree = "<group>"; };
+		8F45FA1A286D641D00A143E3 /* jEducation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jEducation.swift; sourceTree = "<group>"; };
+		8F45FA1C286D643200A143E3 /* jClimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jClimate.swift; sourceTree = "<group>"; };
 		F3052BB3286BE1CE000502F8 /* edlection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edlection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3052BB6286BE1CE000502F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3052BB8286BE1CE000502F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +169,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F45F9D7286D5E1D00A143E3 /* cortezmasto */ = {
+			isa = PBXGroup;
+			children = (
+				8F45F9D5286D5E0E00A143E3 /* cabortion.swift */,
+				8F45F9D2286D5D6D00A143E3 /* cortezmasto.swift */,
+				8F45F9D8286D5E6100A143E3 /* c-economy.swift */,
+				8F45F9DA286D5E9B00A143E3 /* c-gun.swift */,
+				8F45F9DC286D5EBA00A143E3 /* c-entitlements.swift */,
+				8F45F9DE286D5EEA00A143E3 /* c-immigration.swift */,
+				8F45F9E0286D5F1900A143E3 /* c-education.swift */,
+				8F45F9E2286D5F3E00A143E3 /* c-Climate.swift */,
+			);
+			path = cortezmasto;
+			sourceTree = "<group>";
+		};
+		8F45F9ED286D609400A143E3 /* adamLaxalt */ = {
+			isa = PBXGroup;
+			children = (
+				8F45FA00286D622F00A143E3 /* timry */,
+				8F45F9E6286D5FF700A143E3 /* adamLaxalt.swift */,
+				8F45F9E8286D604600A143E3 /* A-abortion.swift */,
+				8F45F9EE286D60D800A143E3 /* A-economy.swift */,
+				8F45F9F0286D60EE00A143E3 /* A-Gun.swift */,
+				8F45F9F2286D610700A143E3 /* A-entitlements.swift */,
+				8F45F9F4286D612100A143E3 /* A-immigration.swift */,
+				8F45F9F6286D613800A143E3 /* A-education.swift */,
+				8F45F9F8286D615A00A143E3 /* A-Climate.swift */,
+			);
+			path = adamLaxalt;
+			sourceTree = "<group>";
+		};
+		8F45FA00286D622F00A143E3 /* timry */ = {
+			isa = PBXGroup;
+			children = (
+				8F45F9FA286D61B000A143E3 /* timRyan.swift */,
+				8F45F9FC286D61F000A143E3 /* Tabortion.swift */,
+				8F45FA01286D626900A143E3 /* Tgun.swift */,
+				8F45FA03286D628500A143E3 /* tEcon.swift */,
+				8F45FA05286D629800A143E3 /* tEntitlements.swift */,
+				8F45FA07286D62EF00A143E3 /* tImmigration.swift */,
+				8F45FA09286D630900A143E3 /* tEducation.swift */,
+				8F45FA0B286D631E00A143E3 /* tClimate.swift */,
+			);
+			path = timry;
+			sourceTree = "<group>";
+		};
+		8F45FA11286D638900A143E3 /* JDV */ = {
+			isa = PBXGroup;
+			children = (
+				8F45FA0D286D635700A143E3 /* jamesDV.swift */,
+				8F45FA0F286D637C00A143E3 /* jdvabortion.swift */,
+				8F45FA12286D63C700A143E3 /* jEcon.swift */,
+				8F45FA14286D63E000A143E3 /* jGun.swift */,
+				8F45FA16286D63F600A143E3 /* jEntitlements.swift */,
+				8F45FA18286D640700A143E3 /* jImmigration.swift */,
+				8F45FA1A286D641D00A143E3 /* jEducation.swift */,
+				8F45FA1C286D643200A143E3 /* jClimate.swift */,
+			);
+			path = JDV;
+			sourceTree = "<group>";
+		};
 		F3052BAA286BE1CE000502F8 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +261,9 @@
 				F3052C10286BF3BA000502F8 /* oz -P */,
 				F3052C00286BF331000502F8 /* herschel -G */,
 				F3052BFF286BF2F7000502F8 /* raphael -G */,
+				8F45F9D7286D5E1D00A143E3 /* cortezmasto */,
+				8F45F9ED286D609400A143E3 /* adamLaxalt */,
+				8F45FA11286D638900A143E3 /* JDV */,
 			);
 			path = edlection;
 			sourceTree = "<group>";
@@ -274,21 +402,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3052BE6286BF255000502F8 /* oEntitlements.swift in Sources */,
+				8F45F9E3286D5F3E00A143E3 /* c-Climate.swift in Sources */,
 				F3052BDE286BF21C000502F8 /* fClimate.swift in Sources */,
+				8F45FA06286D629800A143E3 /* tEntitlements.swift in Sources */,
 				F3052BDA286BF0A1000502F8 /* fImmigration.swift in Sources */,
 				F3052C04286BF356000502F8 /* hEconomy.swift in Sources */,
+				8F45F9E9286D604600A143E3 /* A-abortion.swift in Sources */,
 				F3052BBB286BE1CE000502F8 /* ViewController.swift in Sources */,
+				8F45F9F7286D613800A143E3 /* A-education.swift in Sources */,
 				F3052C08286BF373000502F8 /* hEntitlements.swift in Sources */,
 				F3052BD4286BF062000502F8 /* fEconomy.swift in Sources */,
 				F3052BD6286BF070000502F8 /* fGun.swift in Sources */,
+				8F45FA0C286D631E00A143E3 /* tClimate.swift in Sources */,
 				F3052BE0286BF232000502F8 /* oAbortion.swift in Sources */,
+				8F45F9FD286D61F000A143E3 /* Tabortion.swift in Sources */,
+				8F45FA19286D640700A143E3 /* jImmigration.swift in Sources */,
 				F3052BEE286BF28A000502F8 /* raphael.swift in Sources */,
 				F3052BCE286BE26F000502F8 /* fetterman.swift in Sources */,
 				F3052BF6286BF2C5000502F8 /* rGun.swift in Sources */,
+				8F45F9F9286D615A00A143E3 /* A-Climate.swift in Sources */,
+				8F45FA1B286D641D00A143E3 /* jEducation.swift in Sources */,
+				8F45F9DF286D5EEA00A143E3 /* c-immigration.swift in Sources */,
 				F3052BFE286BF2F2000502F8 /* rClimate.swift in Sources */,
 				F3052BF0286BF29D000502F8 /* herschel.swift in Sources */,
+				8F45FA13286D63C700A143E3 /* jEcon.swift in Sources */,
 				F3052C02286BF34A000502F8 /* hAbortion.swift in Sources */,
+				8F45F9F5286D612100A143E3 /* A-immigration.swift in Sources */,
 				F3052BDC286BF0B8000502F8 /* fEdu.swift in Sources */,
+				8F45FA0A286D630900A143E3 /* tEducation.swift in Sources */,
+				8F45F9DB286D5E9B00A143E3 /* c-gun.swift in Sources */,
 				F3052C0C286BF391000502F8 /* hEdu.swift in Sources */,
 				F3052BC1286BE1CE000502F8 /* edlection.xcdatamodeld in Sources */,
 				F3052BE8286BF260000502F8 /* oImmigration.swift in Sources */,
@@ -296,19 +438,37 @@
 				F3052BE2286BF23F000502F8 /* oEconomy.swift in Sources */,
 				F3052BF8286BF2CE000502F8 /* rEntitlements.swift in Sources */,
 				F3052BFC286BF2E5000502F8 /* rEdu.swift in Sources */,
+				8F45FA04286D628500A143E3 /* tEcon.swift in Sources */,
 				F3052BB7286BE1CE000502F8 /* AppDelegate.swift in Sources */,
+				8F45F9F3286D610700A143E3 /* A-entitlements.swift in Sources */,
+				8F45F9FB286D61B000A143E3 /* timRyan.swift in Sources */,
+				8F45F9EF286D60D800A143E3 /* A-economy.swift in Sources */,
 				F3052BD0286BF027000502F8 /* oz.swift in Sources */,
+				8F45F9F1286D60EE00A143E3 /* A-Gun.swift in Sources */,
 				F3052C06286BF361000502F8 /* hGun.swift in Sources */,
+				8F45FA10286D637C00A143E3 /* jdvabortion.swift in Sources */,
+				8F45F9D3286D5D6D00A143E3 /* cortezmasto.swift in Sources */,
+				8F45FA02286D626900A143E3 /* Tgun.swift in Sources */,
 				F3052BD8286BF08E000502F8 /* fEntitlements.swift in Sources */,
+				8F45FA08286D62EF00A143E3 /* tImmigration.swift in Sources */,
+				8F45FA0E286D635700A143E3 /* jamesDV.swift in Sources */,
+				8F45F9DD286D5EBA00A143E3 /* c-entitlements.swift in Sources */,
 				F3052BF2286BF2A7000502F8 /* rAbortion.swift in Sources */,
 				F3052C0E286BF39C000502F8 /* hClimate.swift in Sources */,
+				8F45F9E1286D5F1900A143E3 /* c-education.swift in Sources */,
 				F3052C0A286BF386000502F8 /* hImmigration.swift in Sources */,
 				F3052BEA286BF26B000502F8 /* oEdu.swift in Sources */,
 				F3052BE4286BF24B000502F8 /* oGun.swift in Sources */,
 				F3052BF4286BF2B2000502F8 /* rEconomy.swift in Sources */,
+				8F45FA15286D63E000A143E3 /* jGun.swift in Sources */,
+				8F45FA17286D63F600A143E3 /* jEntitlements.swift in Sources */,
+				8F45F9E7286D5FF700A143E3 /* adamLaxalt.swift in Sources */,
 				F3052BB9286BE1CE000502F8 /* SceneDelegate.swift in Sources */,
+				8F45F9D6286D5E0E00A143E3 /* cabortion.swift in Sources */,
 				F3052BFA286BF2DC000502F8 /* rImmigration.swift in Sources */,
 				F3052BEC286BF274000502F8 /* oClimate.swift in Sources */,
+				8F45FA1D286D643200A143E3 /* jClimate.swift in Sources */,
+				8F45F9D9286D5E6100A143E3 /* c-economy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

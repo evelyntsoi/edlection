@@ -9,13 +9,30 @@ import UIKit
 
 class oz: UIViewController {
 
+    @IBOutlet weak var mehmetOz: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func abortion(_ sender: UIButton) {
+    }
     
-
+    @IBAction func economy(_ sender: UIButton) {
+    }
+    
+    @IBAction func gunsCrime(_ sender: UIButton) {
+    }
+    @IBAction func entitlements(_ sender: UIButton) {
+    }
+    
+    @IBAction func immigration(_ sender: UIButton) {
+    }
+    @IBAction func education(_ sender: UIButton) {
+    }
+    @IBAction func climateChange(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

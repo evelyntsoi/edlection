@@ -9,6 +9,21 @@ import UIKit
 
 class fetterman: UIViewController {
 
+    @IBOutlet weak var fettermanImage: UIImageView!
+    @IBAction func abortion(_ sender: UIButton) {
+    }
+    @IBAction func economy(_ sender: UIButton) {
+    }
+    @IBAction func gunViolence(_ sender: UIButton) {
+    }
+    @IBAction func entitlements(_ sender: UIButton) {
+    }
+    @IBAction func immigration(_ sender: UIButton) {
+    }
+    @IBAction func publicInfrastructure(_ sender: UIButton) {
+    }
+    @IBAction func climate(_ sender: UIButton) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

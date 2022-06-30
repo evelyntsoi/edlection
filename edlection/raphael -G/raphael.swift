@@ -9,6 +9,23 @@ import UIKit
 
 class raphael: UIViewController {
 
+    @IBOutlet weak var raphaelWarnock: UIImageView!
+    @IBAction func abortion(_ sender: UIButton) {
+    }
+    
+    @IBAction func economy(_ sender: UIButton) {
+    }
+    @IBAction func gunsCrime(_ sender: UIButton) {
+    }
+    @IBAction func entitlements(_ sender: UIButton) {
+    }
+    @IBAction func immigration(_ sender: UIButton) {
+    }
+    @IBAction func education(_ sender: UIButton) {
+    }
+    @IBAction func climateChange(_ sender: UIButton) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
