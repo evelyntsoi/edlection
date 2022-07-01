@@ -9,6 +9,7 @@ import UIKit
 
 class fAbortion: UIViewController {
 
+   
     @IBOutlet weak var abortion: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()

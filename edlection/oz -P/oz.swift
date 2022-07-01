@@ -20,6 +20,8 @@ class oz: UIViewController {
     
     @IBAction func economy(_ sender: UIButton) {
     }
+    @IBAction func home(_ sender: UIButton) {
+    }
     
     @IBAction func gunsCrime(_ sender: UIButton) {
     }

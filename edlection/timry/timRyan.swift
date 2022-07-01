@@ -1,13 +1,13 @@
 //
-//  timRyan.swift
+//  timryan.swift
 //  edlection
 //
-//  Created by Sarah Byun on 6/29/22.
+//  Created by Sarah Byun on 6/30/22.
 //
 
 import UIKit
 
-class timRyan: UIViewController {
+class timryan: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

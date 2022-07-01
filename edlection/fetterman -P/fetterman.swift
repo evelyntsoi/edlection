@@ -16,6 +16,8 @@ class fetterman: UIViewController {
     }
     @IBAction func gunViolence(_ sender: UIButton) {
     }
+    @IBAction func home(_ sender: UIButton) {
+    }
     @IBAction func entitlements(_ sender: UIButton) {
     }
     @IBAction func immigration(_ sender: UIButton) {

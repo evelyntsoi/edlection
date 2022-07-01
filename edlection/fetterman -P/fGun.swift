@@ -10,6 +10,7 @@ import UIKit
 class fGun: UIViewController {
 
     @IBOutlet weak var gunsCrime: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

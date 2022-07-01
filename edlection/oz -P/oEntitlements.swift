@@ -9,6 +9,7 @@ import UIKit
 
 class oEntitlements: UIViewController {
 
+    @IBOutlet weak var entitlements: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

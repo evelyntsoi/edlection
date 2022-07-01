@@ -9,6 +9,24 @@ import UIKit
 
 class cortezmasto: UIViewController {
 
+    @IBOutlet weak var cortez: UIImageView!
+    
+    @IBAction func economy(_ sender: UIButton) {
+    }
+    @IBAction func abortion(_ sender: UIButton) {
+    }
+    @IBAction func gunsCrime(_ sender: UIButton) {
+    }
+    @IBAction func entitle(_ sender: UIButton) {
+    }
+    @IBAction func immigration(_ sender: UIButton) {
+    }
+    @IBAction func climateChange(_ sender: UIButton) {
+    }
+    @IBAction func home(_ sender: UIButton) {
+    }
+    @IBAction func education(_ sender: UIButton) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

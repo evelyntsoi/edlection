@@ -9,6 +9,7 @@ import UIKit
 
 class fImmigration: UIViewController {
 
+
     @IBOutlet weak var immigration: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()

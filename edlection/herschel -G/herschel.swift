@@ -14,6 +14,8 @@ class herschel: UIViewController {
     @IBAction func abortion(_ sender: UIButton) {
     }
     
+    @IBAction func home(_ sender: UIButton) {
+    }
     @IBAction func economy(_ sender: UIButton) {
     }
     @IBAction func gunsCrime(_ sender: UIButton) {

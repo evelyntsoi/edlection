@@ -23,7 +23,6 @@
 		8F45F9F5286D612100A143E3 /* A-immigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9F4286D612100A143E3 /* A-immigration.swift */; };
 		8F45F9F7286D613800A143E3 /* A-education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9F6286D613800A143E3 /* A-education.swift */; };
 		8F45F9F9286D615A00A143E3 /* A-Climate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9F8286D615A00A143E3 /* A-Climate.swift */; };
-		8F45F9FB286D61B000A143E3 /* timRyan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9FA286D61B000A143E3 /* timRyan.swift */; };
 		8F45F9FD286D61F000A143E3 /* Tabortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45F9FC286D61F000A143E3 /* Tabortion.swift */; };
 		8F45FA02286D626900A143E3 /* Tgun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA01286D626900A143E3 /* Tgun.swift */; };
 		8F45FA04286D628500A143E3 /* tEcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA03286D628500A143E3 /* tEcon.swift */; };
@@ -40,10 +39,10 @@
 		8F45FA1B286D641D00A143E3 /* jEducation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA1A286D641D00A143E3 /* jEducation.swift */; };
 		8F45FA1D286D643200A143E3 /* jClimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA1C286D643200A143E3 /* jClimate.swift */; };
 		8F45FA1F286E0E4C00A143E3 /* allCandidates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA1E286E0E4C00A143E3 /* allCandidates.swift */; };
+		8F45FA21286EC43200A143E3 /* timryan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F45FA20286EC43200A143E3 /* timryan.swift */; };
+		8F45FA29286EC94A00A143E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F45FA28286EC94A00A143E3 /* Main.storyboard */; };
 		F3052BB7286BE1CE000502F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BB6286BE1CE000502F8 /* AppDelegate.swift */; };
 		F3052BB9286BE1CE000502F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BB8286BE1CE000502F8 /* SceneDelegate.swift */; };
-		F3052BBB286BE1CE000502F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3052BBA286BE1CE000502F8 /* ViewController.swift */; };
-		F3052BBE286BE1CE000502F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3052BBC286BE1CE000502F8 /* Main.storyboard */; };
 		F3052BC1286BE1CE000502F8 /* edlection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3052BBF286BE1CE000502F8 /* edlection.xcdatamodeld */; };
 		F3052BC3286BE1D1000502F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3052BC2286BE1D1000502F8 /* Assets.xcassets */; };
 		F3052BC6286BE1D1000502F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3052BC4286BE1D1000502F8 /* LaunchScreen.storyboard */; };
@@ -99,7 +98,6 @@
 		8F45F9F4286D612100A143E3 /* A-immigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A-immigration.swift"; sourceTree = "<group>"; };
 		8F45F9F6286D613800A143E3 /* A-education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A-education.swift"; sourceTree = "<group>"; };
 		8F45F9F8286D615A00A143E3 /* A-Climate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A-Climate.swift"; sourceTree = "<group>"; };
-		8F45F9FA286D61B000A143E3 /* timRyan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timRyan.swift; sourceTree = "<group>"; };
 		8F45F9FC286D61F000A143E3 /* Tabortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tabortion.swift; path = edlection/timry/Tabortion.swift; sourceTree = SOURCE_ROOT; };
 		8F45FA01286D626900A143E3 /* Tgun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tgun.swift; sourceTree = "<group>"; };
 		8F45FA03286D628500A143E3 /* tEcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tEcon.swift; sourceTree = "<group>"; };
@@ -116,11 +114,11 @@
 		8F45FA1A286D641D00A143E3 /* jEducation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jEducation.swift; sourceTree = "<group>"; };
 		8F45FA1C286D643200A143E3 /* jClimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jClimate.swift; sourceTree = "<group>"; };
 		8F45FA1E286E0E4C00A143E3 /* allCandidates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allCandidates.swift; sourceTree = "<group>"; };
+		8F45FA20286EC43200A143E3 /* timryan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timryan.swift; sourceTree = "<group>"; };
+		8F45FA28286EC94A00A143E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Main.storyboard"; sourceTree = "<group>"; };
 		F3052BB3286BE1CE000502F8 /* edlection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edlection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3052BB6286BE1CE000502F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3052BB8286BE1CE000502F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3052BBA286BE1CE000502F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3052BBD286BE1CE000502F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3052BC0286BE1CE000502F8 /* edlection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = edlection.xcdatamodel; sourceTree = "<group>"; };
 		F3052BC2286BE1D1000502F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3052BC5286BE1D1000502F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -189,7 +187,6 @@
 		8F45F9ED286D609400A143E3 /* adamLaxalt */ = {
 			isa = PBXGroup;
 			children = (
-				8F45FA00286D622F00A143E3 /* timry */,
 				8F45F9E6286D5FF700A143E3 /* adamLaxalt.swift */,
 				8F45F9E8286D604600A143E3 /* A-abortion.swift */,
 				8F45F9EE286D60D800A143E3 /* A-economy.swift */,
@@ -205,7 +202,6 @@
 		8F45FA00286D622F00A143E3 /* timry */ = {
 			isa = PBXGroup;
 			children = (
-				8F45F9FA286D61B000A143E3 /* timRyan.swift */,
 				8F45F9FC286D61F000A143E3 /* Tabortion.swift */,
 				8F45FA01286D626900A143E3 /* Tgun.swift */,
 				8F45FA03286D628500A143E3 /* tEcon.swift */,
@@ -213,6 +209,7 @@
 				8F45FA07286D62EF00A143E3 /* tImmigration.swift */,
 				8F45FA09286D630900A143E3 /* tEducation.swift */,
 				8F45FA0B286D631E00A143E3 /* tClimate.swift */,
+				8F45FA20286EC43200A143E3 /* timryan.swift */,
 			);
 			path = timry;
 			sourceTree = "<group>";
@@ -253,11 +250,10 @@
 			children = (
 				F3052BB6286BE1CE000502F8 /* AppDelegate.swift */,
 				F3052BB8286BE1CE000502F8 /* SceneDelegate.swift */,
-				F3052BBA286BE1CE000502F8 /* ViewController.swift */,
-				F3052BBC286BE1CE000502F8 /* Main.storyboard */,
 				8F45FA1E286E0E4C00A143E3 /* allCandidates.swift */,
 				F3052BC2286BE1D1000502F8 /* Assets.xcassets */,
 				F3052BC4286BE1D1000502F8 /* LaunchScreen.storyboard */,
+				8F45FA28286EC94A00A143E3 /* Main.storyboard */,
 				F3052BC7286BE1D1000502F8 /* Info.plist */,
 				F3052BBF286BE1CE000502F8 /* edlection.xcdatamodeld */,
 				F3052C0F286BF3A7000502F8 /* fetterman -P */,
@@ -265,6 +261,7 @@
 				F3052C00286BF331000502F8 /* herschel -G */,
 				F3052BFF286BF2F7000502F8 /* raphael -G */,
 				8F45F9D7286D5E1D00A143E3 /* cortezmasto */,
+				8F45FA00286D622F00A143E3 /* timry */,
 				8F45F9ED286D609400A143E3 /* adamLaxalt */,
 				8F45FA11286D638900A143E3 /* JDV */,
 			);
@@ -393,7 +390,7 @@
 				F3052C16286BF47E000502F8 /* Downloads in Resources */,
 				F3052BC6286BE1D1000502F8 /* LaunchScreen.storyboard in Resources */,
 				F3052BC3286BE1D1000502F8 /* Assets.xcassets in Resources */,
-				F3052BBE286BE1CE000502F8 /* Main.storyboard in Resources */,
+				8F45FA29286EC94A00A143E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +408,6 @@
 				F3052BDA286BF0A1000502F8 /* fImmigration.swift in Sources */,
 				F3052C04286BF356000502F8 /* hEconomy.swift in Sources */,
 				8F45F9E9286D604600A143E3 /* A-abortion.swift in Sources */,
-				F3052BBB286BE1CE000502F8 /* ViewController.swift in Sources */,
 				8F45F9F7286D613800A143E3 /* A-education.swift in Sources */,
 				F3052C08286BF373000502F8 /* hEntitlements.swift in Sources */,
 				F3052BD4286BF062000502F8 /* fEconomy.swift in Sources */,
@@ -424,6 +420,7 @@
 				F3052BCE286BE26F000502F8 /* fetterman.swift in Sources */,
 				F3052BF6286BF2C5000502F8 /* rGun.swift in Sources */,
 				8F45F9F9286D615A00A143E3 /* A-Climate.swift in Sources */,
+				8F45FA21286EC43200A143E3 /* timryan.swift in Sources */,
 				8F45FA1B286D641D00A143E3 /* jEducation.swift in Sources */,
 				8F45F9DF286D5EEA00A143E3 /* c-immigration.swift in Sources */,
 				F3052BFE286BF2F2000502F8 /* rClimate.swift in Sources */,
@@ -445,7 +442,6 @@
 				8F45FA04286D628500A143E3 /* tEcon.swift in Sources */,
 				F3052BB7286BE1CE000502F8 /* AppDelegate.swift in Sources */,
 				8F45F9F3286D610700A143E3 /* A-entitlements.swift in Sources */,
-				8F45F9FB286D61B000A143E3 /* timRyan.swift in Sources */,
 				8F45F9EF286D60D800A143E3 /* A-economy.swift in Sources */,
 				F3052BD0286BF027000502F8 /* oz.swift in Sources */,
 				8F45F9F1286D60EE00A143E3 /* A-Gun.swift in Sources */,
@@ -479,14 +475,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3052BBC286BE1CE000502F8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3052BBD286BE1CE000502F8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F3052BC4286BE1D1000502F8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

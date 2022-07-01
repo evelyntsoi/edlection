@@ -9,6 +9,7 @@ import UIKit
 
 class oClimate: UIViewController {
 
+    @IBOutlet weak var climateChange: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

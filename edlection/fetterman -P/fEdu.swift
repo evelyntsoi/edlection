@@ -9,6 +9,7 @@ import UIKit
 
 class fEdu: UIViewController {
 
+    
     @IBOutlet weak var education: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
